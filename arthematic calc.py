@@ -61,10 +61,11 @@ def arithmetic_arranger(problems,solve=False):
   else:
     arranged_problem = top_line + "\n" + bottom_line + "\n" + dash_line
   return arranged_problem
-##
-##from pytest import main
-##
-##from arithmetic_arranger import arithmetic_arranger
 
 
 print(arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"]))
+print(arithmetic_arranger(['3801 - 2', '123 + 49']))
+print(arithmetic_arranger(['11 + 4', '3801 - 2999', '1 + 2', '123 + 49', '1 - 9380']))
+print(arithmetic_arranger(['98 + 3g5', '3801 - 2', '45 + 43', '123 + 49']))
+print(arithmetic_arranger(['3 + 855', '988 + 40'], True))
+print(arithmetic_arranger(['24 + 85215', '3801 - 2', '45 + 43', '123 + 49']))
