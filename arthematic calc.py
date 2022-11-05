@@ -57,7 +57,7 @@ def arithmetic_arranger(problems,solve=False):
       solution_line += answer_line
 
   if solve==True:
-    arranged_peoblem = top_line + "\n" + bottom_line + "\n" + dash_line + "\n" + solution_line
+    arranged_problem = top_line + "\n" + bottom_line + "\n" + dash_line + "\n" + solution_line
   else:
     arranged_problem = top_line + "\n" + bottom_line + "\n" + dash_line
   return arranged_problem
